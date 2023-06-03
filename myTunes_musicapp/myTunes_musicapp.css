@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+}
+
+#main_div{
+    height: 40px;`
+    width: 100%;
+    background-color: rgb(51,51,51); 
+    display: flex;  
+    position: fixed;
+}
+
+.link{
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.link:hover{
+    background-color: rgb(71, 71, 71);
+    transform: scale(1, 1);
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#bg h1{
+    padding-top: 300px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#bg h2{
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#bg h4{
+    line-height: 40px;
+    font-weight: lighter;
+    padding: 0px 170px;
+    font-size: 18px;
+}
+#bg{
+    line-height: 40PX;
+    text-align: center;
+    padding-bottom: 50px;   
+    color: white;
+    height: 725px;
+    width: 100%;
+    background-image: url(../image/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#music{
+    color: white;
+    background-color: rgb(37,37,41);
+    width: 100%;
+    height: 1600px;
+    text-align: center;
+}
+
+#music h1{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#music img{
+    padding-top: 60px;
+}
+#music .fa-solid{
+    padding-right: 10px;
+}
+
+#music h2{
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+#music h4{
+    line-height: 40px;
+    font-weight: lighter;
+    padding: 30px 170px;
+    font-size: 18px;
+}
+
+#music button{
+    margin-top: 10px;
+    text-align: center;
+    height: 60px;
+    width: 170px;
+    color: white;
+    border: rgb(185,4,21);
+    background-color: rgb(185,4,21);
+}
+
+#music button:hover{
+    background-color: rgb(210, 7, 27);
+    cursor: pointer;
+}
+
+#music h6{
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+#videos{
+    color: rgb(37,37,41);
+    text-align: center;
+    height: 1500px;
+    width: 100%;
+}
+#videos h2{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+#videos img{
+    padding-top: 40px;
+}
+
+#videos h4{
+    line-height: 40px;
+    font-weight: lighter;
+    padding: 0px 170px;
+    font-size: 18px;
+}
+
+#videos button{
+    margin-top: 30px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    color: white;
+    border: rgb(16, 56, 121);
+    background-color: rgb(16, 56, 121);
+}
+#videos button:hover{
+    background-color:rgb(23, 73, 154);
+    cursor: pointer;
+}
+
+#pic{
+    color: white;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    background-image: url(../image/section-bg.jpeg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+#pic h2{
+    padding-top: 290px;
+    padding-bottom: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#pic h4{
+    line-height: 40px;
+    font-weight: lighter;
+    padding: 0px 160px;
+    font-size: 18px;
+}
+
+#gifts{
+    justify-content: center;
+    color: rgb(37,37,41);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
+#gifts h2{
+    margin-top: -240px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#gifts h4{
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#gifts img{
+    margin-left: 100px;
+}
+
+#para{
+    height: 0.1px;
+    width: 550px;
+    box-shadow: 0px 0.4px 0px 0px;                        
+    padding-right: 100px;
+    margin-top: 170px;
+}
+
+#li{
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 8360px;
+    margin-top: -290px;
+}
+
+#li i{
+    color:rgb(16,48,99);
+    transform: scale(0.8,1.2);
+    cursor: pointer;
+}
+#li a{
+    color: rgb(16,48,99);
+    text-decoration: none;
+}
+
+
+#ending{
+    color: white;
+    background-color: rgb(37,37,41);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 400px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(51,51,51);
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.navi{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.navi a{
+    color: rgb(204,204,204);
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: normal;
+    font-weight: lighter;
+}
+
+
+#ending h1{
+   padding-bottom: 10px;
+   box-shadow: 0px 0.2px 0px 0px;
+}
+
